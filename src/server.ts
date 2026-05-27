@@ -1,4 +1,4 @@
-import { buildApp } from './app';
+import {buildApp} from './app';
 
 const app = buildApp({ logger: true });
 const port = Number(process.env.PORT || 3000);
